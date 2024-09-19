@@ -1,0 +1,24 @@
+<div class="temperature-container">
+  <h2>Temperature Converter</h2>
+
+  <!-- Input field for user to enter temperature -->
+  <input [(ngModel)]="temperature" type="number" placeholder="Enter temperature" />
+
+  <!-- Radio buttons to select conversion direction -->
+  <div>
+    <label>
+      <input type="radio" [(ngModel)]="conversionType" value="CtoF" checked /> Celsius to Fahrenheit
+    </label>
+    <label>
+      <input type="radio" [(ngModel)]="conversionType" value="FtoC" /> Fahrenheit to Celsius
+    </label>
+  </div>
+
+  <!-- Button to trigger the conversion -->
+  <button (click)="convertTemperature()">Convert</button>
+
+  <!-- Display the converted temperature if available -->
+  <p *ngIf="convertedTemperature !== null">
+    Converted Temperature: {{ convertedTemperature }} °{{ conversionType === 'CtoF' ? 'F' : 'C' }}
+  </p>
+</div>
