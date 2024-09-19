@@ -1,0 +1,10 @@
+<div class="random-number-generator-container">
+  <h2>Random Number Generator</h2>
+
+  <input [(ngModel)]="minValue" type="number" placeholder="Enter minimum value" />
+  <input [(ngModel)]="maxValue" type="number" placeholder="Enter maximum value" />
+
+  <button (click)="generateRandomNumber()">Generate Random Number</button>
+  <p *ngIf="randomNumber !== null">Random Number: {{ randomNumber }}</p>
+</div>
+
