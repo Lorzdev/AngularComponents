@@ -29,6 +29,7 @@ import {TemperatureConverterComponent} from "./components/temperatureconverter/t
 import {ShoppingListComponent} from "./components/shoppinglist/shoppinglist.component";
 import {FactorialCalculatorComponent} from "./components/factorialcalculator/factorialcalculator.component";
 import {TodoManagerComponent} from "./components/todomanager/todomanager.component";
+import {GuessNumberGameComponent} from "./components/guessnumbergame/guessnumbergame.component";
 
 
 const routes: Routes = [
@@ -56,11 +57,7 @@ const routes: Routes = [
   {path:  'shoppinglist', component:ShoppingListComponent},
   {path:  'factorialcalculator', component:FactorialCalculatorComponent},
   {path:  'todomanager', component:TodoManagerComponent},
-
-
-
-
-
+  {path:  'guessnumbergame', component:GuessNumberGameComponent},
 
 
 
@@ -106,6 +103,7 @@ const routes: Routes = [
     ShoppingListComponent,
     FactorialCalculatorComponent,
     TodoManagerComponent,
+    GuessNumberGameComponent,
 
   ],
 

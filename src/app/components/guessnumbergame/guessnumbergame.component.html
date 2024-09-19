@@ -1,0 +1,11 @@
+<div class="guess-number-game-container">
+  <h2>Guess the Number Game</h2>
+
+  <input [(ngModel)]="userGuess" type="number" placeholder="Enter your guess" />
+
+  <button (click)="checkGuess()">Submit Guess</button>
+
+  <p *ngIf="feedback">{{ feedback }}</p>
+
+  <button *ngIf="gameOver" (click)="restartGame()">Play Again</button>
+</div>
