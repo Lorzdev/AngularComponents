@@ -22,3 +22,6 @@ export class OddSumCalculatorComponent {
     }
   }
 }
+
+export class OddsumcalculatorComponent {
+}
