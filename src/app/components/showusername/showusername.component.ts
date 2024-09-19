@@ -14,3 +14,6 @@ export class ShowUsernameComponent {
     this.message = `Hello, ${this.username}!`;
   }
 }
+
+export class ShowusernameComponent {
+}
