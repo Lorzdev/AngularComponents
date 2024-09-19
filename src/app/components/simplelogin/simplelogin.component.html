@@ -1,0 +1,15 @@
+<div class="login-container">
+  <h2>Login</h2>
+
+  <!-- Email input field with two-way data binding -->
+  <input [(ngModel)]="email" type="email" placeholder="Enter your email" required />
+
+  <!-- Password input field with two-way data binding -->
+  <input [(ngModel)]="password" type="password" placeholder="Enter your password" required />
+
+  <!-- Button to trigger the login function -->
+  <button (click)="login()">Login</button>
+
+  <!-- Show a message on successful or unsuccessful login -->
+  <p *ngIf="message">{{ message }}</p>
+</div>
