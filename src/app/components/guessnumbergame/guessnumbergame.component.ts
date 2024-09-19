@@ -41,3 +41,6 @@ export class GuessNumberGameComponent {
     this.gameOver = false;
   }
 }
+
+export class GuessnumbergameComponent {
+}
