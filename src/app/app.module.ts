@@ -39,6 +39,7 @@ import {BMISolverComponent} from "./components/bmisolver/bmisolver.component";
 import {UsernameValidatorComponent} from "./components/usernamevalidator/usernamevalidator.component";
 import {InterestCalculatorComponent} from "./components/interestcalculator/interestcalculator.component";
 import {CompoundInterestCalculatorComponent} from "./components/compoundinterestcalculator/compoundinterestcalculator.component";
+import {FibonacciGeneratorComponent} from "./components/fibonaccigenerator/fibonaccigenerator.component";
 
 
 const routes: Routes = [
@@ -76,6 +77,8 @@ const routes: Routes = [
   {path:  'usernamevalidator', component:UsernameValidatorComponent},
   {path:  'interestcalculator', component:InterestCalculatorComponent},
   {path:  'compoundinterestcalculator', component:CompoundInterestCalculatorComponent},
+  {path:  'fibonaccigenerator', component:FibonacciGeneratorComponent},
+
 
 
 
@@ -130,7 +133,8 @@ const routes: Routes = [
     BMISolverComponent,
     UsernameValidatorComponent,
     InterestCalculatorComponent,
-    CompoundInterestCalculatorComponent
+    CompoundInterestCalculatorComponent,
+    FibonacciGeneratorComponent
 
 
   ],
