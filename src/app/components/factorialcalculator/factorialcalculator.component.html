@@ -1,0 +1,12 @@
+<div class="factorial-calculator-container">
+  <h2>Factorial Calculator</h2>
+
+  <!-- Input field to enter a number -->
+  <input [(ngModel)]="number" type="number" placeholder="Enter a number" />
+
+  <!-- Button to calculate factorial -->
+  <button (click)="calculateFactorial()">Calculate Factorial</button>
+
+  <!-- Display the factorial result if available -->
+  <p *ngIf="factorial !== null">Factorial: {{ factorial }}</p>
+</div>
