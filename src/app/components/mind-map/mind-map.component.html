@@ -1,0 +1,16 @@
+<div class="mind-map-container">
+  <h2>Mind Map Creator</h2>
+
+  <div>
+    <label for="topic">Enter a Topic:</label>
+    <input type="text" [(ngModel)]="newTopic" id="topic" />
+    <button (click)="addTopic()">Add Topic</button>
+  </div>
+
+  <div class="mind-map">
+    <h3>Mind Map:</h3>
+    <ul>
+      <li *ngFor="let topic of topics">{{ topic }}</li>
+    </ul>
+  </div>
+</div>

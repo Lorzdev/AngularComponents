@@ -54,8 +54,7 @@ import {LanguageTranslatorComponent} from "./components/language-translator/lang
 import {VirtualPetComponent} from "./components/virtual-pet/virtual-pet.component";
 import {DailyJournalComponent} from "./components/daily-journal/daily-journal.component";
 import {ExpenseSplitterComponent} from "./components/expense-splitter/expense-splitter.component";
-
-
+import {MindMapComponent} from "./components/mind-map/mind-map.component";
 
 
 const routes: Routes = [
@@ -108,6 +107,8 @@ const routes: Routes = [
   {path:  'virtual-pet', component:VirtualPetComponent},
   {path:  'daily-journal', component:DailyJournalComponent},
   {path:  'expense-splitter', component:ExpenseSplitterComponent},
+  {path:  'mind-map', component:MindMapComponent},
+
 
 
 
@@ -175,7 +176,8 @@ const routes: Routes = [
     LanguageTranslatorComponent,
     VirtualPetComponent,
     DailyJournalComponent,
-    ExpenseSplitterComponent
+    ExpenseSplitterComponent,
+    MindMapComponent,
 
 
   ],
