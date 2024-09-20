@@ -1,0 +1,13 @@
+<div class="day-difference-calculator-container">
+  <h2>Day Difference Calculator</h2>
+
+  <label for="startDate">Start Date:</label>
+  <input [(ngModel)]="startDate" type="date" id="startDate" />
+
+  <label for="endDate">End Date:</label>
+  <input [(ngModel)]="endDate" type="date" id="endDate" />
+
+  <button (click)="calculateDifference()">Calculate Days Difference</button>
+
+  <p *ngIf="daysDifference !== null">Number of Days: <strong>{{ daysDifference }}</strong></p>
+</div>

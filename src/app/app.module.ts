@@ -48,6 +48,7 @@ import {DivisibleCheckerComponent} from "./components/divisiblechecker/divisible
 import {RGBtoHexConverterComponent} from "./components/rgbto-hex-converter/rgbto-hex-converter.component";
 import {SpeedConverterComponent} from "./components/speed-converter/speed-converter.component";
 import {LeapYearCheckerComponent} from "./components/leap-year-checker/leap-year-checker.component";
+import {DayDifferenceCalculatorComponent} from "./components/day-difference-calculator/day-difference-calculator.component";
 
 
 const routes: Routes = [
@@ -94,6 +95,7 @@ const routes: Routes = [
   {path:  'rgbto-hex-converter', component:RGBtoHexConverterComponent},
   {path:  'speed-converter', component:SpeedConverterComponent},
   {path:  'leap-year-checker', component:LeapYearCheckerComponent},
+  {path:  'day-difference-calculator', component:DayDifferenceCalculatorComponent},
 
 
 
@@ -159,7 +161,8 @@ const routes: Routes = [
     DivisibleCheckerComponent,
     RGBtoHexConverterComponent,
     SpeedConverterComponent,
-    LeapYearCheckerComponent
+    LeapYearCheckerComponent,
+    DayDifferenceCalculatorComponent
 
 
   ],
