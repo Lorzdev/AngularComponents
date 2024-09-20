@@ -1,0 +1,19 @@
+<div class="rgb-to-hex-converter-container">
+  <h2>RGB to Hex Converter</h2>
+
+  <label for="red">Red:</label>
+  <input [(ngModel)]="red" type="number" min="0" max="255" id="red" placeholder="0-255" />
+
+  <label for="green">Green:</label>
+  <input [(ngModel)]="green" type="number" min="0" max="255" id="green" placeholder="0-255" />
+
+  <label for="blue">Blue:</label>
+  <input [(ngModel)]="blue" type="number" min="0" max="255" id="blue" placeholder="0-255" />
+
+  <button (click)="convertToHex()">Convert to Hex</button>
+
+  <p *ngIf="hexCode">Hex Color Code: <strong>{{ hexCode }}</strong></p>
+
+  <div *ngIf="hexCode" [style.background-color]="hexCode" style="width: 100px; height: 100px; border: 1px solid #000;">
+  </div>
+</div>
