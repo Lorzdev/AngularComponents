@@ -1,0 +1,10 @@
+<div class="speed-converter-container">
+  <h2>Speed Converter (Km/h to Mph)</h2>
+
+  <label for="kmh">Speed (Km/h):</label>
+  <input [(ngModel)]="kmh" type="number" id="kmh" placeholder="Enter speed in km/h" />
+
+  <button (click)="convertToMph()">Convert to Mph</button>
+
+  <p *ngIf="mph !== null">Speed in Mph: <strong>{{ mph }}</strong></p>
+</div>

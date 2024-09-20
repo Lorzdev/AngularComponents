@@ -46,6 +46,7 @@ import {RandomQuoteDisplayComponent} from "./components/randomquotedisplay/rando
 import {UppercaseGreetingComponent} from "./components/uppercasegreeting/uppercasegreeting.component";
 import {DivisibleCheckerComponent} from "./components/divisiblechecker/divisiblechecker.component";
 import {RGBtoHexConverterComponent} from "./components/rgbto-hex-converter/rgbto-hex-converter.component";
+import {SpeedConverterComponent} from "./components/speed-converter/speed-converter.component";
 
 
 const routes: Routes = [
@@ -90,6 +91,7 @@ const routes: Routes = [
   {path:  'uppercasegreeting', component:UppercaseGreetingComponent},
   {path:  'divisiblechecker', component:DivisibleCheckerComponent},
   {path:  'rgbto-hex-converter', component:RGBtoHexConverterComponent},
+  {path:  'speed-converter', component:SpeedConverterComponent},
 
 
 
@@ -153,7 +155,8 @@ const routes: Routes = [
     RandomQuoteDisplayComponent,
     UppercaseGreetingComponent,
     DivisibleCheckerComponent,
-    RGBtoHexConverterComponent
+    RGBtoHexConverterComponent,
+    SpeedConverterComponent
 
 
   ],
