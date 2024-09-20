@@ -1,0 +1,24 @@
+<div class="expense-splitter-container">
+  <h2>Expense Splitter</h2>
+
+  <div>
+    <label for="amount">Total Amount:</label>
+    <input type="number" [(ngModel)]="totalAmount" id="amount" placeholder="Enter total amount" />
+  </div>
+
+  <div>
+    <label for="people">Number of People:</label>
+    <input type="number" [(ngModel)]="numberOfPeople" id="people" placeholder="Enter number of people" />
+  </div>
+
+  <button (click)="calculateShares()">Calculate Shares</button>
+
+  <div *ngIf="shares.length > 0">
+    <h3>Amount Owed:</h3>
+    <ul>
+      <li *ngFor="let share of shares; let i = index">
+        Person {{ i + 1 }} owes: {{ share | currency:'USD' }}
+      </li>
+    </ul>
+  </div>
+</div>

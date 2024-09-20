@@ -53,6 +53,9 @@ import {PythagoreanTheoremSolverComponent} from "./components/pythagorean-theore
 import {LanguageTranslatorComponent} from "./components/language-translator/language-translator.component";
 import {VirtualPetComponent} from "./components/virtual-pet/virtual-pet.component";
 import {DailyJournalComponent} from "./components/daily-journal/daily-journal.component";
+import {ExpenseSplitterComponent} from "./components/expense-splitter/expense-splitter.component";
+
+
 
 
 const routes: Routes = [
@@ -104,12 +107,7 @@ const routes: Routes = [
   {path:  'language-translator', component:LanguageTranslatorComponent},
   {path:  'virtual-pet', component:VirtualPetComponent},
   {path:  'daily-journal', component:DailyJournalComponent},
-
-
-
-
-
-
+  {path:  'expense-splitter', component:ExpenseSplitterComponent},
 
 
 
@@ -176,7 +174,8 @@ const routes: Routes = [
     PythagoreanTheoremSolverComponent,
     LanguageTranslatorComponent,
     VirtualPetComponent,
-    DailyJournalComponent
+    DailyJournalComponent,
+    ExpenseSplitterComponent
 
 
   ],
