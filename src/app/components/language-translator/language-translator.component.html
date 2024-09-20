@@ -1,0 +1,18 @@
+<div class="language-translator-container">
+  <h2>Language Translator</h2>
+
+  <textarea [(ngModel)]="textToTranslate" rows="4" placeholder="Enter text to translate..."></textarea>
+
+  <label for="languageSelect">Select Language:</label>
+  <select [(ngModel)]="selectedLanguage" id="languageSelect">
+    <option value="en">English</option>
+    <option value="tl">Tagalog</option>
+  </select>
+
+  <button (click)="translateText()">Translate</button>
+
+  <div *ngIf="translatedText">
+    <h3>Translated Text:</h3>
+    <p>{{ translatedText }}</p>
+  </div>
+</div>

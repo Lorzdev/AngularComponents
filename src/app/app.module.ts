@@ -50,6 +50,7 @@ import {SpeedConverterComponent} from "./components/speed-converter/speed-conver
 import {LeapYearCheckerComponent} from "./components/leap-year-checker/leap-year-checker.component";
 import {DayDifferenceCalculatorComponent} from "./components/day-difference-calculator/day-difference-calculator.component";
 import {PythagoreanTheoremSolverComponent} from "./components/pythagorean-theorem-solver/pythagorean-theorem-solver.component";
+import {LanguageTranslatorComponent} from "./components/language-translator/language-translator.component";
 
 
 const routes: Routes = [
@@ -98,6 +99,7 @@ const routes: Routes = [
   {path:  'leap-year-checker', component:LeapYearCheckerComponent},
   {path:  'day-difference-calculator', component:DayDifferenceCalculatorComponent},
   {path:  'pythagorean-theorem-solver', component:PythagoreanTheoremSolverComponent},
+  {path:  'language-translator', component:LanguageTranslatorComponent},
 
 
 
@@ -165,7 +167,8 @@ const routes: Routes = [
     SpeedConverterComponent,
     LeapYearCheckerComponent,
     DayDifferenceCalculatorComponent,
-    PythagoreanTheoremSolverComponent
+    PythagoreanTheoremSolverComponent,
+    LanguageTranslatorComponent
 
 
   ],
