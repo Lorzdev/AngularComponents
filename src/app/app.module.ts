@@ -51,6 +51,7 @@ import {LeapYearCheckerComponent} from "./components/leap-year-checker/leap-year
 import {DayDifferenceCalculatorComponent} from "./components/day-difference-calculator/day-difference-calculator.component";
 import {PythagoreanTheoremSolverComponent} from "./components/pythagorean-theorem-solver/pythagorean-theorem-solver.component";
 import {LanguageTranslatorComponent} from "./components/language-translator/language-translator.component";
+import {VirtualPetComponent} from "./components/virtual-pet/virtual-pet.component";
 
 
 const routes: Routes = [
@@ -100,6 +101,7 @@ const routes: Routes = [
   {path:  'day-difference-calculator', component:DayDifferenceCalculatorComponent},
   {path:  'pythagorean-theorem-solver', component:PythagoreanTheoremSolverComponent},
   {path:  'language-translator', component:LanguageTranslatorComponent},
+  {path:  'virtual-pet', component:VirtualPetComponent},
 
 
 
@@ -168,7 +170,8 @@ const routes: Routes = [
     LeapYearCheckerComponent,
     DayDifferenceCalculatorComponent,
     PythagoreanTheoremSolverComponent,
-    LanguageTranslatorComponent
+    LanguageTranslatorComponent,
+    VirtualPetComponent
 
 
   ],

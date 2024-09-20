@@ -1,0 +1,18 @@
+<div class="virtual-pet-container">
+  <h2>{{ petName }}</h2>
+
+  <div class="pet-status">
+    <p>Happiness: {{ happiness }}</p>
+    <p>Hunger: {{ hunger }}</p>
+  </div>
+
+  <button (click)="feedPet()">Feed Pet</button>
+  <button (click)="playWithPet()">Play with Pet</button>
+
+  <div *ngIf="hunger <= 0">
+    <p>Your pet is full and happy!</p>
+  </div>
+  <div *ngIf="happiness <= 0">
+    <p>Your pet is sad. Play with it!</p>
+  </div>
+</div>
