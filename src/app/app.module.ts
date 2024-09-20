@@ -52,6 +52,7 @@ import {DayDifferenceCalculatorComponent} from "./components/day-difference-calc
 import {PythagoreanTheoremSolverComponent} from "./components/pythagorean-theorem-solver/pythagorean-theorem-solver.component";
 import {LanguageTranslatorComponent} from "./components/language-translator/language-translator.component";
 import {VirtualPetComponent} from "./components/virtual-pet/virtual-pet.component";
+import {DailyJournalComponent} from "./components/daily-journal/daily-journal.component";
 
 
 const routes: Routes = [
@@ -102,6 +103,9 @@ const routes: Routes = [
   {path:  'pythagorean-theorem-solver', component:PythagoreanTheoremSolverComponent},
   {path:  'language-translator', component:LanguageTranslatorComponent},
   {path:  'virtual-pet', component:VirtualPetComponent},
+  {path:  'daily-journal', component:DailyJournalComponent},
+
+
 
 
 
@@ -171,7 +175,8 @@ const routes: Routes = [
     DayDifferenceCalculatorComponent,
     PythagoreanTheoremSolverComponent,
     LanguageTranslatorComponent,
-    VirtualPetComponent
+    VirtualPetComponent,
+    DailyJournalComponent
 
 
   ],

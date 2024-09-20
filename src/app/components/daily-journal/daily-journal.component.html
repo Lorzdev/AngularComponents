@@ -1,0 +1,16 @@
+<div class="daily-journal-container">
+  <h2>Daily Journal</h2>
+
+  <textarea [(ngModel)]="entry" rows="5" placeholder="Write your journal entry..."></textarea>
+
+  <button (click)="saveEntry()">Save Entry</button>
+
+  <div *ngIf="entries.length > 0">
+    <h3>Saved Entries:</h3>
+    <ul>
+      <li *ngFor="let savedEntry of entries">
+        <p>{{ savedEntry }}</p>
+      </li>
+    </ul>
+  </div>
+</div>
