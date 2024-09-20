@@ -49,6 +49,7 @@ import {RGBtoHexConverterComponent} from "./components/rgbto-hex-converter/rgbto
 import {SpeedConverterComponent} from "./components/speed-converter/speed-converter.component";
 import {LeapYearCheckerComponent} from "./components/leap-year-checker/leap-year-checker.component";
 import {DayDifferenceCalculatorComponent} from "./components/day-difference-calculator/day-difference-calculator.component";
+import {PythagoreanTheoremSolverComponent} from "./components/pythagorean-theorem-solver/pythagorean-theorem-solver.component";
 
 
 const routes: Routes = [
@@ -96,6 +97,7 @@ const routes: Routes = [
   {path:  'speed-converter', component:SpeedConverterComponent},
   {path:  'leap-year-checker', component:LeapYearCheckerComponent},
   {path:  'day-difference-calculator', component:DayDifferenceCalculatorComponent},
+  {path:  'pythagorean-theorem-solver', component:PythagoreanTheoremSolverComponent},
 
 
 
@@ -162,7 +164,8 @@ const routes: Routes = [
     RGBtoHexConverterComponent,
     SpeedConverterComponent,
     LeapYearCheckerComponent,
-    DayDifferenceCalculatorComponent
+    DayDifferenceCalculatorComponent,
+    PythagoreanTheoremSolverComponent
 
 
   ],

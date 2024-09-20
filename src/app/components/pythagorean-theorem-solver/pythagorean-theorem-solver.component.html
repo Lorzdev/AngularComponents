@@ -1,0 +1,13 @@
+<div class="pythagorean-theorem-solver-container">
+  <h2>Pythagorean Theorem Solver</h2>
+
+  <label for="sideA">Length of Side A:</label>
+  <input [(ngModel)]="sideA" type="number" id="sideA" placeholder="Enter length of side A" />
+
+  <label for="sideB">Length of Side B:</label>
+  <input [(ngModel)]="sideB" type="number" id="sideB" placeholder="Enter length of side B" />
+
+  <button (click)="calculateHypotenuse()">Calculate Hypotenuse</button>
+
+  <p *ngIf="hypotenuse !== null">Hypotenuse: <strong>{{ hypotenuse }}</strong></p>
+</div>
