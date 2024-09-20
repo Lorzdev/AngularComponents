@@ -47,6 +47,7 @@ import {UppercaseGreetingComponent} from "./components/uppercasegreeting/upperca
 import {DivisibleCheckerComponent} from "./components/divisiblechecker/divisiblechecker.component";
 import {RGBtoHexConverterComponent} from "./components/rgbto-hex-converter/rgbto-hex-converter.component";
 import {SpeedConverterComponent} from "./components/speed-converter/speed-converter.component";
+import {LeapYearCheckerComponent} from "./components/leap-year-checker/leap-year-checker.component";
 
 
 const routes: Routes = [
@@ -92,6 +93,7 @@ const routes: Routes = [
   {path:  'divisiblechecker', component:DivisibleCheckerComponent},
   {path:  'rgbto-hex-converter', component:RGBtoHexConverterComponent},
   {path:  'speed-converter', component:SpeedConverterComponent},
+  {path:  'leap-year-checker', component:LeapYearCheckerComponent},
 
 
 
@@ -156,7 +158,8 @@ const routes: Routes = [
     UppercaseGreetingComponent,
     DivisibleCheckerComponent,
     RGBtoHexConverterComponent,
-    SpeedConverterComponent
+    SpeedConverterComponent,
+    LeapYearCheckerComponent
 
 
   ],
